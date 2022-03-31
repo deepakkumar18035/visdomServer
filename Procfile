@@ -1,1 +1,1 @@
-web: gunicorn --bind 0.0.0.0:$PORT visdom.server
+web: gunicorn --bind 0.0.0.0:$PORT visdom:server
